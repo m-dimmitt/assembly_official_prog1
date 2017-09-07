@@ -1,3 +1,4 @@
+## Executing a program for output.
 inputfile= computing
 1. `sicasm` generates prog.lst and prog.obj ... outputs bugs. (compiles?)
 2. <pre> sicsim

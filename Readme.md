@@ -20,9 +20,6 @@ Q
 
 <pre>
 Instructions: 
-</pre>
-
-
 
 2.(5 points)Textbook, Page 40, Problem 8. 
 You may refer to Appendix A of the book for appropriate instructions required for this program.
@@ -32,3 +29,4 @@ Test your program thoroughly using sicasm and sicsim.
 You may refer to Appendix A  of the book for appropriate instructions required for this program.
 You may receive zero point if your program cannot be used to generate error-free lst and objfiles in sicasm. 
 Test your program thoroughly using sicasm and sicsim.
+</pre>

@@ -1,0 +1,31 @@
+*********************************************
+University of North Florida: SIC/XE assembler
+version date 11/12/2002
+account: n00841838; Thu Sep  7 07:52:08 2017
+*********************************************
+ASSEMBLER REPORT
+----------------
+     Loc   Object Code       Source Code
+     ---   -----------       -----------
+001- 00100                   INIT_ARRAY 	START	100 
+002- 00100 032153            		LDA	ZERO 
+003- 00103 0F201E            		STA	VALUE2ST
+004- 00106 03214D            		LDA	ZERO 
+005- 00109 0F201B            		STA	INDEX 
+006- 0010C 072018            		LDX	INDEX
+007- 0010F 032012            LOOP_START	LDA	VALUE2ST
+008- 00112 072012            		LDX	INDEX 
+009- 00115 1B2144            		ADD	THREE 
+010- 00118 0F200C            		STA	INDEX  
+011- 0011B 2B2141            		COMP	THIRTY
+012- 0011E 2B2141            		COMP	THREEHUNDRED
+013- 00121 3B2FEB            		JLT	LOOP_START
+014- 00124                   VALUE2ST	RESW	1
+015- 00127                   INDEX		RESW	1
+016- 0012A                   ALPHA		RESW	100
+017- 00256 000000            ZERO		WORD	0
+018- 00259 000001            ONE		WORD	1
+019- 0025C 000003            THREE		WORD	3
+020- 0025F 00001E            THIRTY		WORD	30
+021- 00262 00012C            THREEHUNDRED	WORD	300
+********** WARNING: END statement not found [#17 on line 21]

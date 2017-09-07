@@ -1,0 +1,15 @@
+.This program calculates (g+b-a when a=1, b=2, g=3)
+ALGEBRA	START	100 .Load this program at memory location 100
+
+ALPHA	WORD	1 			.Defines a constant named ALPHA initialized to 1.
+BETA	WORD	2 			.Defines a constant named BETA  initialized to 2.
+GAMMA	WORD	3 			.Defines a constant named GAMMA initialized to 3.
+
+	LDA	BETA 			.Load accumulator(A) with 2
+	ADD	GAMMA			.Add 3 to accumulator
+	SUB	ALPHA			.Subtract 1 from the accumulator
+	STA	G-PLUS-B-MINUS-A 	.Store 6 into the memory location A-PLUS-B
+
+G-PLUS-B-MINUS-A RESW 1			.Reserve a word
+
+         END ALGEBRA			.End of program
